@@ -1,0 +1,11 @@
+location_id,street_name,zipcode,position,district
+1,Main Street,12345,Curb,Downtown
+2,Elm Street,54321,Middle,Uptown
+3,Maple Avenue,98765,Left side,Suburbia
+4,First Avenue,67890,Right side,Downtown
+5,Oak Street,13579,Curb,Uptown
+6,Pine Road,24680,Middle,Suburbia
+7,Cedar Lane,97531,Left side,Downtown
+8,Willow Avenue,86420,Right side,Uptown
+9,Birch Street,23456,Curb,Suburbia
+10,Second Avenue,78901,Middle,Downtown

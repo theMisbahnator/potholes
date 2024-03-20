@@ -1,0 +1,11 @@
+order_id,pothole_id,crew_id,hour_spent,filler_used,cost,completion_status
+1,1,9,3,5,150,done
+2,2,8,4,6,200,in progress
+3,3,6,2,4,120,requested
+4,4,3,5,8,250,done
+5,5,10,3,6,180,requested
+6,6,1,4,7,220,in progress
+7,7,2,5,9,280,done
+8,8,5,2,5,130,requested
+9,9,4,3,6,190,in progress
+10,10,7,4,7,210,done

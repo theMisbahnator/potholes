@@ -1,0 +1,7 @@
+damage_id,citizen_name,location_id,phone,d_type,cost
+1,John Doe,1,1234567890,severe,5000.00
+2,Jane Smith,2,9876543210,minor,250.00
+3,Michael Johnson,4,5551234567,severe,8000.00
+4,Emily Davis,7,7894561230,minor,300.00
+5,David Brown,9,4567890123,severe,6000.00
+6,Sarah Wilson,6,3216549870,minor,200.00

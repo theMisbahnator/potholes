@@ -1,0 +1,47 @@
+Potholes 
+- potholeId (primary key)
+- location_id (foreign key)
+- PotholeSize (int 1-10) 
+- Repair Priority (calculated from pothole size)
+
+location table
+- location_id (pk)
+- street name (varchar)
+- zip code 
+- location (on the street)
+- district (determined from street name)
+
+User Table
+- user_id (PK)
+- password (varchar) // assume encrypted
+
+Property Damage Table
+- damage_id (PK)
+- citizen_name (varchar)
+- address_id (FK)
+- phone_number (varchar)
+- damage_type (varchar or enum)
+- cost (decimal)
+
+Work Order Table
+- order_id (PK)
+- pothole_id (FK)
+- crew_id (FK)
+- hours (int)
+- status (enum)
+- filler_used (int)
+- cost (calculated) // (determined by hours, crew->num_people, filler, crew->equipment)
+
+Work Crew Table
+- crew_id (PK)
+- num_people (int)
+
+Crew_Equipment
+- crew_id (FK) (PK 1.1)
+- equipment_id (FK) (PK 1.2)
+
+Equipment Table
+- equipment_id (PK)
+- weight (int)
+- name (varchar)
+
